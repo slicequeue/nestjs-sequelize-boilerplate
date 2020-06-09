@@ -22,7 +22,7 @@ export default () => ({
         basePath: cast('SWAGGER_BASEPATH', 'string') // 필수
     },
     db: {
-        database: cast('DB_DATABASE', 'string', 'localhost'), 
+        database: cast('DB_DATABASE', 'string', 'test'), 
         host: cast('DB_HOST', 'string', 'localhost'), 
         port: cast('DB_PORT', 'number', 3306),
         username: cast('DB_ID', 'string'),  // 필수
