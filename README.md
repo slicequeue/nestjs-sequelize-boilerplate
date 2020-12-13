@@ -54,6 +54,14 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## docker 
+```bash
+# docker build
+$ docker build -t lawdb/nestjs-boilerplate-sequelize .
+# docker run
+$ docker run lawdb/nestjs-boilerplate-sequelize
+```
+
 ## Test
 
 ```bash
